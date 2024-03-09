@@ -9,6 +9,9 @@ import UIKit
 
 class WeaponCell: UITableViewCell {
 
+    @IBOutlet weak var weaponLabel: UILabel!
+    @IBOutlet weak var weaponImage: UIImageView!
+    @IBOutlet weak var weaponDescriptionLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
