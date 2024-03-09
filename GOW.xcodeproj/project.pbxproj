@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		BFE526712B9BD1D00098139D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE526702B9BD1D00098139D /* AppDelegate.swift */; };
 		BFE526732B9BD1D00098139D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE526722B9BD1D00098139D /* SceneDelegate.swift */; };
-		BFE526752B9BD1D00098139D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE526742B9BD1D00098139D /* ViewController.swift */; };
 		BFE526782B9BD1D00098139D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE526762B9BD1D00098139D /* Main.storyboard */; };
 		BFE5267A2B9BD1D40098139D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE526792B9BD1D40098139D /* Assets.xcassets */; };
 		BFE5267D2B9BD1D40098139D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE5267B2B9BD1D40098139D /* LaunchScreen.storyboard */; };
+		BFE526862B9BD43A0098139D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE526852B9BD43A0098139D /* HomeViewController.swift */; };
+		BFE526892B9BD7210098139D /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE526882B9BD7210098139D /* MenuOption.swift */; };
+		BFE5268C2B9BDBCC0098139D /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE5268B2B9BDBCC0098139D /* MenuOptionCell.swift */; };
+		BFE5268E2B9BE9630098139D /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE5268D2B9BE9630098139D /* GamesViewController.swift */; };
+		BFE526902B9BFA3A0098139D /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE5268F2B9BFA3A0098139D /* Weapon.swift */; };
+		BFE526942B9BFDD00098139D /* WeaponsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE526932B9BFDD00098139D /* WeaponsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BFE5266D2B9BD1D00098139D /* GOW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE526702B9BD1D00098139D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFE526722B9BD1D00098139D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BFE526742B9BD1D00098139D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BFE526772B9BD1D00098139D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFE526792B9BD1D40098139D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFE5267C2B9BD1D40098139D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFE5267E2B9BD1D40098139D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE526852B9BD43A0098139D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BFE526882B9BD7210098139D /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		BFE5268B2B9BDBCC0098139D /* MenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionCell.swift; sourceTree = "<group>"; };
+		BFE5268D2B9BE9630098139D /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
+		BFE5268F2B9BFA3A0098139D /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		BFE526932B9BFDD00098139D /* WeaponsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,44 @@
 		BFE5266F2B9BD1D00098139D /* GOW */ = {
 			isa = PBXGroup;
 			children = (
+				BFE5268A2B9BDB920098139D /* View */,
+				BFE526872B9BD6F70098139D /* Model */,
+				BFE526842B9BD4210098139D /* Controller */,
 				BFE526702B9BD1D00098139D /* AppDelegate.swift */,
 				BFE526722B9BD1D00098139D /* SceneDelegate.swift */,
-				BFE526742B9BD1D00098139D /* ViewController.swift */,
 				BFE526762B9BD1D00098139D /* Main.storyboard */,
 				BFE526792B9BD1D40098139D /* Assets.xcassets */,
 				BFE5267B2B9BD1D40098139D /* LaunchScreen.storyboard */,
 				BFE5267E2B9BD1D40098139D /* Info.plist */,
 			);
 			path = GOW;
+			sourceTree = "<group>";
+		};
+		BFE526842B9BD4210098139D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFE526852B9BD43A0098139D /* HomeViewController.swift */,
+				BFE5268D2B9BE9630098139D /* GamesViewController.swift */,
+				BFE526932B9BFDD00098139D /* WeaponsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFE526872B9BD6F70098139D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFE526882B9BD7210098139D /* MenuOption.swift */,
+				BFE5268F2B9BFA3A0098139D /* Weapon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFE5268A2B9BDB920098139D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFE5268B2B9BDBCC0098139D /* MenuOptionCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFE526752B9BD1D00098139D /* ViewController.swift in Sources */,
 				BFE526712B9BD1D00098139D /* AppDelegate.swift in Sources */,
+				BFE5268C2B9BDBCC0098139D /* MenuOptionCell.swift in Sources */,
+				BFE526892B9BD7210098139D /* MenuOption.swift in Sources */,
+				BFE526942B9BFDD00098139D /* WeaponsController.swift in Sources */,
+				BFE526902B9BFA3A0098139D /* Weapon.swift in Sources */,
 				BFE526732B9BD1D00098139D /* SceneDelegate.swift in Sources */,
+				BFE5268E2B9BE9630098139D /* GamesViewController.swift in Sources */,
+				BFE526862B9BD43A0098139D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +344,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +352,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mx.pinfabu.GOW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,6 +376,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,6 +384,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mx.pinfabu.GOW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
