@@ -22,6 +22,7 @@ class GamesViewController: UIViewController {
         // Do any additional setup after loading the view.
         gamePosterPageControl.numberOfPages = gamePosters.count
         gamePosterImage.image = UIImage(named: String(gamePosters.first!))
+        gamePosterPageControl.setCurrentPageIndicatorImage(UIImage(named: "gow_logo")?.preparingThumbnail(of: CGSize(width: 25, height: 25)), forPage: gamePosterPageControl.currentPage)
     }
     
     
